@@ -35,7 +35,12 @@ public class Device implements AutoCloseable {
 		
 		System.out.println("d1, d2 and d3 are closes");
 		System.out.println("The point of a try-with-resources is that whatever resource is specified in the try block.\n"
-				+ "\tshould be closed as soon as the try blocks ends, irrespective of what happens in the try blocl");
+				+ "\tshould be closed as soon as the try blocks ends, irrespective of what happens in the try block.");
+		System.out.println("Try without resources: need eiher a catch block OR a finally block, can have both.\n"
+				+ "try with resources: do not need neither a catch block nor a finally block,\n"
+				+ "\tbut can have the catch as well the finally blocks.\n"
+				+ "If a try-with resources statement has catch/finally blocks, ther are executed.\n"
+				+ "\tafter the resources are closed.\n");
 		
 		
 		
