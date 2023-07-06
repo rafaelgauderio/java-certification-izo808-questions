@@ -7,7 +7,7 @@ public class Program05 {
 	public static void main(String[] args) {
 		
 		LocalDate d1 = LocalDate.now(); // 1 object
-		d1.plusDays(20); // create a new object, but it is not assign into no variable, eligible for gargabe collection. 2 object
+		d1.plusDays(20); // create a new object, but it is not assign into no variable (do not store in another reference), eligible for gargabe collection. 2 object
 		
 		LocalDate d2 = d1.minusWeeks(5); // new object = 3 objects
 		d1 = null; // no object instantiated, just point to null 
