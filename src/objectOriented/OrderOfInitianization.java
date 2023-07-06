@@ -24,7 +24,9 @@ public class OrderOfInitianization {
 				+ "1. All static constants, variables and blocks\n"
 				+ "2. All NON static constants, variables and blocks;\n"
 				+ "3. Constructor\n"
-				+ "Among themselves the order is the order in which the apper in the code.\n");
+				+ "Among themselves the order is the order in which the apper in the code.\n"
+				+ "static will be execute only for the first time.\n"
+				+ "instances are always done.\n");
 		
 		C b = new C(); // call fisrt static method 1, second static method with 4 and then instantiate A with 2 
 		A a = new A (3); // call the constructor A with 3
