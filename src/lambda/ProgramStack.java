@@ -13,10 +13,10 @@ public class ProgramStack {
 		System.out.println("Stack\n"
 				+ "LIFO structure: Last in, First Out\n");			
 		
-		Stack stack = new Stack<Integer>();
-		stack.add(1);
-		stack.add(2);
-		stack.add(3);
+		Stack<Integer> stack = new Stack<Integer>();
+		stack.push(1);
+		stack.push(2);
+		stack.push(3);
 		
 		System.out.println(stack);
 		System.out.println("first: " + stack.firstElement()); // 1

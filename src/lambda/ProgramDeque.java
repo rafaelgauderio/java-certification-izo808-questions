@@ -11,6 +11,7 @@ public class ProgramDeque {
 				+ "\tDouble ended queue = Fila duplamente ligada\n"
 				+ "\tpoll methods remove items and push methods add itens\n"
 				+ "\tDeque can be use as a Queue or a Stack\n"
+				+ "\tStack has the method push and pop (add to the front and removes from the front).\n"
 				+ "\tQueue has methods: offer, add, poll, remove.\n"
 				+ "\tDeque has methods: removeFirst, removeLast");
 		
