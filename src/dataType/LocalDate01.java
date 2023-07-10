@@ -2,7 +2,7 @@ package dataType;
 
 import java.time.LocalDate;
 
-public class Program05 {
+public class LocalDate01 {
 
 	public static void main(String[] args) {
 		
